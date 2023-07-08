@@ -1,5 +1,4 @@
 def is_pallindrome(string):
-  center = len(string) // 2
   left = 0
   right = len(string) - 1
   if left >= right:
